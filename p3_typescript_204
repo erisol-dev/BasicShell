@@ -1,0 +1,85 @@
+Script started on 2024-04-22 12:07:06-04:00
+bash-4.4$ uname a[K-a
+Linux zeus-1.cec.gmu.edu 4.18.0-348.23.1.el8_5.x86_64 #1 SMP Tue Apr 12 11:20:32 EDT 2022 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.4$ mk[Kake
+gcc -std=gnu99 -Wall -Werror -I./inc -g -c src/shell.c -o obj/shell.o
+gcc -std=gnu99 -Wall -Werror -I./inc -g -o cs262sh obj/shell.o obj/fork.o
+bash-4.4$ ,[K./cs262sh 
+262$/usr/bin/echo Hello World!
+Hello World!
+262$/usr/bin/ls
+cs262sh  inc  inputs  Makefile	obj  outputs  p3_typescript_204  silverhand.txt  src
+262$/usr/bin/cat silverhand.txt
+Huh. You just discovered what it takes to become a legend. Grab your iron. Let's mobilize.
+
+262$history
+0: /usr/bin/echo Hello World!
+1: /usr/bin/ls
+2: /usr/bin/cat silverhand.txt
+262$history 2
+Huh. You just discovered what it takes to become a legend. Grab your iron. Let's mobilize.
+
+262$history
+0: /usr/bin/echo Hello World!
+1: /usr/bin/ls
+2: /usr/bin/cat silverhand.txt
+3: /usr/bin/cat silverhand.txt
+262$history -c
+262$history
+262$exit
+bash-4.4$ ls
+cs262sh  inc  inputs  Makefile	obj  outputs  p3_typescript_204  silverhand.txt  src
+bash-4.4$ make clean
+rm cs262sh
+rm ./obj/shell.o
+bash-4.4$ cd ..
+bash-4.4$ ls
+handout
+bash-4.4$ cd ..
+bash-4.4$ ls
+lab10_sadesuyi_204	lab1_sadesuyi_204.tar  lab3_sadesuyi_204       lab4_sadesuyi_204.tar  lab6_sadesuyi_204      lab7_sadesuyi_204.tar  p1_sadesuyi_204	 p2_sadesuyi_204.tar
+lab10_sadesuyi_204.tar	lab2_sadesuyi_204      lab3_seadesuyi_204.tar  lab5_sadesuyi_204      lab6_sadesuyi_204.tar  lab9_sadesuyi_204	    p1_sadesuyi_204.tar  p3_sadesuyi_204
+lab1_sadesuyi_204	lab2_sadesuyi_204.tar  lab4_sadesuyi_204       lab5_sadesuyi_204.tar  lab7_sadesuyi_204      lab9_sadesuyi_204.tar  p2_sadesuyi_204	 p3_sadesuyi_204.tar
+bash-4.4$ rm p3_sadesuyi_204.tar
+bash-4.4$ tar -cvf p3_sadesuyi_204/[K.at[K[Ktar p4[K3_sadesuyi_204/
+p3_sadesuyi_204/
+p3_sadesuyi_204/handout/
+p3_sadesuyi_204/handout/obj/
+p3_sadesuyi_204/handout/obj/fork.o
+p3_sadesuyi_204/handout/inc/
+p3_sadesuyi_204/handout/inc/fork.h
+p3_sadesuyi_204/handout/Makefile
+p3_sadesuyi_204/handout/outputs/
+p3_sadesuyi_204/handout/outputs/p1-prompt
+p3_sadesuyi_204/handout/outputs/p2-history-clear
+p3_sadesuyi_204/handout/outputs/p1-args
+p3_sadesuyi_204/handout/outputs/p2-cd
+p3_sadesuyi_204/handout/outputs/p1-hello
+p3_sadesuyi_204/handout/outputs/p2-exit
+p3_sadesuyi_204/handout/outputs/p2-history
+p3_sadesuyi_204/handout/outputs/p1-many-args
+p3_sadesuyi_204/handout/inputs/
+p3_sadesuyi_204/handout/inputs/p1-prompt
+p3_sadesuyi_204/handout/inputs/p2-history-clear
+p3_sadesuyi_204/handout/inputs/p1-args
+p3_sadesuyi_204/handout/inputs/p2-cd
+p3_sadesuyi_204/handout/inputs/p1-hello
+p3_sadesuyi_204/handout/inputs/p2-exit
+p3_sadesuyi_204/handout/inputs/data/
+p3_sadesuyi_204/handout/inputs/data/a
+p3_sadesuyi_204/handout/inputs/data/long
+p3_sadesuyi_204/handout/inputs/data/c
+p3_sadesuyi_204/handout/inputs/data/d
+p3_sadesuyi_204/handout/inputs/data/e
+p3_sadesuyi_204/handout/inputs/data/b
+p3_sadesuyi_204/handout/inputs/p2-history
+p3_sadesuyi_204/handout/inputs/p1-many-args
+p3_sadesuyi_204/handout/src/
+p3_sadesuyi_204/handout/src/.nfs000000007c5672a000002124
+p3_sadesuyi_204/handout/src/shell.c
+p3_sadesuyi_204/handout/silverhand.txt
+p3_sadesuyi_204/handout/p3_typescript_204
+bash-4.4$ exit
+exit
+
+Script done on 2024-04-22 12:09:12-04:00

@@ -1,0 +1,10 @@
+262$a
+b
+c
+d
+e
+long
+262$a
+262$0: /bin/ls inputs/data
+1: /bin/cat inputs/data/a
+262$
